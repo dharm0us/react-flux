@@ -2,6 +2,7 @@ import {IndexRoute, Route, Router, browserHistory} from 'react-router'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import constants from './constants/app-constants.js'
+import {testing} from './actions/app-actions.js'
 console.log(constants)
 
 
