@@ -1,0 +1,1 @@
+export default let constants = {INCREMENT: 'INCREMENT'}

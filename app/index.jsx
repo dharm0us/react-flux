@@ -1,6 +1,8 @@
 import {IndexRoute, Route, Router, browserHistory} from 'react-router'
 import React from 'react'
 import ReactDOM from 'react-dom'
+import constants from './constants/app-constants.js'
+console.log(constants)
 
 
 class App extends React.Component {
