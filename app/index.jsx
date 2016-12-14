@@ -2,7 +2,7 @@ import {IndexRoute, Route, Router, browserHistory} from 'react-router'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import constants from './constants/app-constants.js'
-import {testing} from './actions/app-actions.js'
+import {incrementActions} from './actions/app-actions.js'
 console.log(constants)
 
 
@@ -15,9 +15,7 @@ class App extends React.Component {
 	}
 	
 	increment() {
-		this.setState(
-				{count: this.state.count + 1}
-			     )
+		incrementActions.incrementCount()
 	}
 
 	render() {
